@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 50rem;
+    padding: 5rem;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.411);
+}
+
+article img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+article p {
+    padding-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, white, #00dffc);
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+header p {
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #00dffc;
+
+}
